@@ -18,6 +18,7 @@ window.onload = () => {
                     flagElements[j].onclick = (event) => {
                         alert(event.currentTarget.alt);
                     };
+                    
                 }
             });
         };
